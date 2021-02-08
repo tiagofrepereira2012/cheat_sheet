@@ -13,3 +13,16 @@ cd $TARGET
 bdt build -vv .
 
 ```
+
+Variables
+
+```base
+export CI_JOB_TOKEN=
+export CI_PROJECT_DIR=bob
+export PYTHON_VERSION=3.8
+export CI_COMMIT_REF_NAME=master
+export DOCUSER=
+export DOCPASS=
+export PYPIUSER=
+export PYPIPASS=
+```
