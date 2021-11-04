@@ -8,3 +8,9 @@ do
 	echo $i
 done
 ```
+
+# Drop the first line
+
+```sh
+tail -n +2  [FILE-NAME]
+```
