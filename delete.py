@@ -14,6 +14,10 @@ def delete_files(path, relative_paths, directories, execute):
         print("################")
         print("Dry run !!!!!!!!")
         print("################")
+            
+    if len(relative_paths)==0:
+        relative_paths = os.listdir(path)
+
 
     for r in relative_paths:
         for d in directories:
