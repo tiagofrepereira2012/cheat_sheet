@@ -7,4 +7,4 @@
 ## Problem resolution
  1. Enter: https://drive.switch.ch
  2. Log-in
- 3. Create a new file lastsync.txt in /zotero/
+ 3. Create a new file called 'lastsync.txt' in /zotero/
