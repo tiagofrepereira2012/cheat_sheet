@@ -14,3 +14,12 @@ This consists of:
 # open window from terminal
 
  - xdg-open
+
+
+# Linux CHMOD In general
+
+ - r = 4
+ - w = 2
+ - x = 1
+
+ chmod Owner, group, rest
