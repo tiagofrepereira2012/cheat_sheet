@@ -11,15 +11,26 @@ This consists of:
 
   
   
-# open window from terminal
+## open window from terminal
 
  - xdg-open
 
 
-# Linux CHMOD In general
+## Linux CHMOD In general
 
  - r = 4
  - w = 2
  - x = 1
 
  chmod Owner, group, rest
+ 
+ ## List and mounted disk
+ 
+  - Command `lsblk` list all the disks
+  - mkdir /media/my_disk
+  - sudo mount -t ext4 /dev/MY_DISK_DEVICE /media/my_disk
+  -  # Add this line to /etc/fstab 
+  -  /dev/MY_DISK_DEVICE       /media/my_disk ext4    defaults        0       0
+
+## Mount a device
+
