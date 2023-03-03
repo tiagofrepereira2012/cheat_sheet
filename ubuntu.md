@@ -32,5 +32,7 @@ This consists of:
   -  # Add this line to /etc/fstab 
   -  /dev/MY_DISK_DEVICE       /media/my_disk ext4    defaults        0       0
 
-## Mount a device
+## Check which process is using a particular port
+
+netstat -nlp|grep :5000
 
