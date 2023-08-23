@@ -5,3 +5,8 @@
 # Set git name and email according to project
 
 https://github.com/DrVanScott/git-clone-init
+
+# Git always asking for password even if you have ssh keys well set
+
+ssh-add ~/.ssh/id_rsa 
+
