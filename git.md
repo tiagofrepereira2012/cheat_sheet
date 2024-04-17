@@ -10,3 +10,7 @@ https://github.com/DrVanScott/git-clone-init
 
 ssh-add ~/.ssh/id_rsa 
 
+If there is an issue wth ssh-agent, do:
+
+ssh-agent bash
+
