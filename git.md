@@ -10,6 +10,11 @@ or
 
 `git push origin --force --tags`
 
+Git recommends using this one
+
+`git filter-repo --invert-paths --path <path to the file or directory>`
+
+
 ## git analyse file
 
 `git filter-repo --analyze`
