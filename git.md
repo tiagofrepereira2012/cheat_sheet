@@ -14,6 +14,10 @@ or
 
 `git filter-repo --analyze`
 
+# Get the size of the repo
+
+`git rev-list --objects --all | git cat-file --batch-check="%(objectsize) %(rest)" | cut -d" " -f1 | paste -s -d + - | bc`
+
 # Set git name and email according to project
 
 https://github.com/DrVanScott/git-clone-init
