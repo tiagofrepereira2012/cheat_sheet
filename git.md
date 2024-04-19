@@ -10,6 +10,10 @@ or
 
 `git push origin --force --tags`
 
+## git analyse file
+
+`git filter-repo --analyze`
+
 # Set git name and email according to project
 
 https://github.com/DrVanScott/git-clone-init
