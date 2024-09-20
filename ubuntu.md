@@ -36,3 +36,9 @@ This consists of:
 
 netstat -nlp|grep :5000
 
+## Kill screen session
+
+First, list the sessions with `screen -ls`
+
+Then, kill it by id with `screen -XS [ID] quit`
+
