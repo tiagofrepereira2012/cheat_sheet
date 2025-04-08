@@ -42,3 +42,12 @@ First, list the sessions with `screen -ls`
 
 Then, kill it by id with `screen -XS [ID] quit`
 
+
+## List all IPs in a subnetwork
+
+Amazing, I didn't know that
+
+```bash
+arp -a
+```h
+
