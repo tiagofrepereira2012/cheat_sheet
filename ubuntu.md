@@ -49,5 +49,5 @@ Amazing, I didn't know that
 
 ```bash
 arp -a
-```h
+```
 
