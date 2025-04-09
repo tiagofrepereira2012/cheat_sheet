@@ -1,3 +1,11 @@
+# Build a docker image and push it to the gitlab-ci registry
+
+```bash
+docker login
+docker built -t https://registry..:tag .
+docker push https://registry..:tag .
+```
+
 # Setup docker to debug Bob packages
 
 ```base
