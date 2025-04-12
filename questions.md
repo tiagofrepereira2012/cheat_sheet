@@ -5,3 +5,5 @@ So, this is the right markdown page for you.
 Below are some possible generic questions to make
 
 1. Is it open-source? Which kinda a license you have?
+
+2. What is the effort put in developing good ground truths?
