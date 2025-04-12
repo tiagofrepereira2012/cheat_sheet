@@ -51,3 +51,16 @@ Amazing, I didn't know that
 arp -a
 ```
 
+## Debugging why sudo takes long time to run
+
+I checked here
+
+```bash
+cat /var/log/auth.log
+```
+
+and noticed that there was an LDAP checking going one. Since, this is out for the moment what we should do is to remove the LDAP refereces from
+
+```bash
+ /etc/nsswitch.conf
+```
