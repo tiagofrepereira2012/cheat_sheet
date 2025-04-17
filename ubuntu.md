@@ -64,3 +64,9 @@ and noticed that there was an LDAP checking going one. Since, this is out for th
 ```bash
  /etc/nsswitch.conf
 ```
+
+## Find command that runs multiprocessing with a limit number of jobs
+
+```bash
+find ./20250415_userK-if/ -name "*.vrs" -print0 | xargs -0 -n 1 -P N_JOBS dataprep
+```
