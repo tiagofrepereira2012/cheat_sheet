@@ -68,5 +68,5 @@ and noticed that there was an LDAP checking going one. Since, this is out for th
 ## Find command that runs multiprocessing with a limit number of jobs
 
 ```bash
-find ./PATH/ -name "*.criteria*" -print0 | xargs -0 -n 1 -P N_JOBS dataprep
+find ./PATH/ -name "*.criteria*" -print0 | xargs -0 -n 1 -P N_JOBS COMMAND
 ```
