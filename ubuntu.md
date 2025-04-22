@@ -70,3 +70,9 @@ and noticed that there was an LDAP checking going one. Since, this is out for th
 ```bash
 find ./PATH/ -name "*.criteria*" -print0 | xargs -0 -n 1 -P N_JOBS COMMAND
 ```
+
+## Mount w.
+
+```bash
+sudo mount -t cifs "//directory-remote" directory -o user=YOUR_USER_NAME,pass=pass
+```
